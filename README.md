@@ -45,12 +45,7 @@ If you find there's a lack of sufficient details in Part 1, consult [this lab](h
 
 <a id="raw-url" href="https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/REST_ERP_CREATE_ACCOUNT_01.00.0000.iar?raw=true">Download .iar integration export</a>
 
-<p align="center">
-  <img src="
-https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/screenshots/import2.png?raw=true" alt="import"/>
-</p>
-
-After you download the .iar, import it to your integration environment from the 'import' button on the top right of the integration design page.
+After you download the .iar, import it to your integration environment from the ['import' button on the top right of the integration design page](https://raw.githubusercontent.com/GaryHostt/beginner_ERP_OIC/master/screenshots/import2.png).
 
 Configure the imported connection to point to your ERP system, if you have problems you may need to follow some of these [prerequisites](
 https://docs.oracle.com/en/cloud/paas/integration-cloud/erp-adapter/prerequisites-creating-connection.html#GUID-FEA17A38-60BF-482D-99CD-31DA9E6C9E77).
