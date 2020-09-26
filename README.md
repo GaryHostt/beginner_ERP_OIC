@@ -19,7 +19,7 @@ This can also be used to abstract away SOAP endpoints. These endpoints can also 
 
 If you are brand new to Oracle Integration, you may consider doing one of the 'Beginner Workshops' [here](https://garyhostt.github.io/Oracle_Integration/).
 
-For this workshop, you can download [Postman](https://www.postman.com/downloads/) or test your integration inside of OIC. For hitting your integration endpoitns from Postman, use basic auth and ensure your user has the necessary [IDCS role for OIC](https://docs.cloud.oracle.com/en-us/iaas/integration/doc/assigning-service-roles-oracle-integration.html), like how oicc0034 does.
+For this workshop, you can download [Postman](https://www.postman.com/downloads/) or [test your integration inside of OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/integrations-user/testing-integration-instances.html#GUID-A00BF42A-9A4F-4984-8B54-B3896066C0B2). For hitting your integration endpoints from Postman, use basic auth and ensure your user has the necessary [IDCS role for OIC](https://docs.cloud.oracle.com/en-us/iaas/integration/doc/assigning-service-roles-oracle-integration.html), like how oicc0034 does.
 
 ![](screenshots/user1.png)
 
