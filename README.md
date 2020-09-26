@@ -4,7 +4,7 @@
   <img src="https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/screenshots/intro.png?raw=true" alt="Apps"/>
 </p>
 
-This lab will show you the best way to start using OIC as an Oracle ERP customer. This does not show comprehensively every single step you need to follow; but with the guidance of an Oracle Cloud Engineer, or previous OIC experience, or the other referenced labs in this repo - you can go from 0 to 100 before your lunch hour.
+This lab will show you the best way to start using OIC as an Oracle ERP customer by importing an already built integration to your environment. This does not show comprehensively every single step you need to follow; but with the guidance of an Oracle Cloud Engineer, or previous OIC experience, or the other referenced labs in this repo - you can go from 0 to 100 before your lunch hour.
 
 ## Introduction
 
@@ -41,7 +41,7 @@ Lastly, this [video](https://www.youtube.com/watch?v=zZk6SI7FADY&feature=youtu.b
 
 ## Part 1 - Create an Account in ERP
 
-If you find there's a lack of sufficient details in Part 1, consult [this lab](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md), where we create an Order in ERP in an identical fashion.
+If you find there's a lack of sufficient details in Part 1, consult [this lab](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md), where we create an Order in ERP in an identical fashion, but with more screenshots.
 
 <a id="raw-url" href="https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/REST_ERP_CREATE_ACCOUNT_01.00.0000.iar?raw=true">Download .iar integration export</a>
 
