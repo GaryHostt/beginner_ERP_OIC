@@ -1,4 +1,4 @@
-## *Laying the foundation of success with OIC & ERP and disparate systems*
+## *Laying the foundation of success with OIC & ERP to disparate systems*
 
 <p align="center">
   <img src="https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/screenshots/intro.png?raw=true" alt="Apps"/>
