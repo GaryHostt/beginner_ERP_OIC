@@ -1,4 +1,4 @@
-# Laying the foundation of success with OIC & ERP
+## *Laying the foundation of success with OIC & ERP*
 
 <p align="center">
   <img src="https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/screenshots/intro.png?raw=true" alt="Apps"/>
