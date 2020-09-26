@@ -4,7 +4,7 @@
   <img src="https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/screenshots/intro.png?raw=true" alt="Apps"/>
 </p>
 
-This lab will show you the best way to start using OIC as an Oracle ERP customer. This does not show comprehensively every single step you need to follow, but with the guidance of an Oracle Cloud Engineer, or previous OIC experience, or the other referenced labs in this repo - you can go from 0 to 100 before your lunch hour.
+This lab will show you the best way to start using OIC as an Oracle ERP customer. This does not show comprehensively every single step you need to follow; but with the guidance of an Oracle Cloud Engineer, or previous OIC experience, or the other referenced labs in this repo - you can go from 0 to 100 before your lunch hour.
 
 ## Introduction
 
