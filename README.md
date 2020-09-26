@@ -59,7 +59,7 @@ https://docs.oracle.com/en/cloud/paas/integration-cloud/erp-adapter/prerequisite
 The selected operation on our ERP adapter is set to create an account. This is a sample payload that can be received by the starting REST adapter.
 
 ```
-{"field1":"Trek Systems","field2":"15113","field3":"3047415022"}
+{"field1":"Trek Systems","field2":"15113","field3":"3101239876"}
 ```
 You will get an error unless you increment field 2 each time you submit. Below are some errors you may get.
 
