@@ -124,7 +124,7 @@ For systems where we do not have an adapter, you can configure that system to us
 
 For your webhooks to fire to OIC, you do not require using the REST adapter to authenticate to JIRA in OIC - you simply need to point JIRA to your integration, and add your authentication information (seen with the oicc0034 user previously).
 
-If you want to pass information back to JIRA, you will need to use the REST adapter and [authenticate to the JIRA API](https://developer.atlassian.com/server/jira/platform/rest-apis/).
+If you want to pass information back to JIRA, you can use the response part of the REST payload. OR, if you want to pass information to JIRA from ERP in a real-time manner for other use cases, first you will need to use the REST adapter and [authenticate to the JIRA API](https://developer.atlassian.com/server/jira/platform/rest-apis/) to pass information to it. Then you can have an event in ERP trigger an integration that invokes your REST connection to JIRA and the relevant endpoint. 
 
 ## Part 4 - Replace webhooks w/ a Trigger Adapter
 
