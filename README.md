@@ -23,6 +23,8 @@ For this workshop, you can download [Postman](https://www.postman.com/downloads/
 
 ![](screenshots/user1.png)
 
+Lastly, this [video](https://www.youtube.com/watch?v=zZk6SI7FADY&feature=youtu.be) shows you a 10 minute walkthrough of OIC and an advanced ERP integration that takes advantage of starting with a REST adapter that invokes ERP, the basics of which will be explained in parts 1 - 2 of this workshop).
+
 ## Objectives
 
 - Use the [Cloud ERP adapter](https://docs.oracle.com/en/cloud/paas/integration-cloud/erp-adapter/oracle-erp-cloud-adapter-capabilities.html#GUID-5ED9E9D5-66F4-4EAA-87D7-75BD405C1E07) in OIC
