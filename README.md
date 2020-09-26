@@ -29,6 +29,14 @@ For this workshop, you can download [Postman](https://www.postman.com/downloads/
 - Use the sample REST endpoint
 - Explore where else you can go with ERP integrations
 
+## Outline
+
+- Create an Account in ERP
+- Enable REST access for your ERP user
+- Webhooks
+- Trigger Adapters
+- ERP Event integrations
+
 ## Part 1 - Create an Account in ERP
 
 If you find there's a lack of sufficient details in Part 1, consult [this lab](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md), where we create an Order in ERP in an identical fashion.
