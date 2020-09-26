@@ -45,6 +45,11 @@ If you find there's a lack of sufficient details in Part 1, consult [this lab](h
 
 <a id="raw-url" href="https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/REST_ERP_CREATE_ACCOUNT_01.00.0000.iar?raw=true">Download .iar integration export</a>
 
+<p align="center">
+  <img src="
+https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/screenshots/import2.png?raw=true" alt="Apps"/>
+</p>
+
 After you download the .iar, import it to your integration environment from the 'import' button on the top right of the integration design page.
 
 Configure the imported connection to point to your ERP system, if you have problems you may need to follow some of these [prerequisites](
