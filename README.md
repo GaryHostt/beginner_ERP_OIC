@@ -1,6 +1,8 @@
 # Laying the foundation of success with OIC & ERP
 
-![](screenshots/intro.png)
+<p align="center">
+  <img src="https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/screenshots/intro.png?raw=true" alt="Apps"/>
+</p>
 
 This lab will show you the best way to start using OIC as an Oracle ERP customer. This does not show comprehensively every single step you need to follow, but with the guidance of an Oracle Cloud Engineer, or previous OIC experience, or the other referenced labs in this repo - you can go from 0 to 100.
 
@@ -31,7 +33,9 @@ For this workshop, you can download [Postman](https://www.postman.com/downloads/
 
 If you find there's a lack of sufficient details in Part 1, consult [this lab](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md), where we create an Order in ERP in an identical fashion.
 
-Download the attached .iar file
+<a id="raw-url" href="https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/REST_ERP_CREATE_ACCOUNT_01.00.0000.iar?raw=true">Download .iar integration export</a>
+
+After you download the .iar, import it to your integration environment from the 'import' button on the top right of the integration design page.
 
 Configure the imported connection to point to your ERP system, if you have problems you may need to follow some of these [prerequisites](
 https://docs.oracle.com/en/cloud/paas/integration-cloud/erp-adapter/prerequisites-creating-connection.html#GUID-FEA17A38-60BF-482D-99CD-31DA9E6C9E77).
