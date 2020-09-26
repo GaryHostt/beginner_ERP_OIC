@@ -147,6 +147,8 @@ One of OIC's best features are its Oracle SaaS adapters. They enable your integr
 
 [Supplemental to Part 1 & 2](https://www.techsupper.com/2020/03/subscribe-oracle-erp-business-events-in-oracle-integration.html)
 
+The examples below are from workshops that will show you how to build an event based integration after you complete the pre-reqs above.
+
 [Event based integration, example 1](https://github.com/GaryHostt/OIC_SaaS_integration/blob/master/Lab200.md)
 
 [Event based integration, example 2](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/erp-cloud-events-simple.html)
