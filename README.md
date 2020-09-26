@@ -1,4 +1,4 @@
-## *Laying the foundation of success with OIC & ERP*
+## *Laying the foundation of success with OIC & ERP and disparate systems*
 
 <p align="center">
   <img src="https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/screenshots/intro.png?raw=true" alt="Apps"/>
@@ -96,7 +96,6 @@ You get this field if you do not increment field2, because it already exists aft
 ```
 JBO-27024: Failed to validate a row with key oracle.jbo.Key[300000184853360 ] in PartySiteEOJBO-FND:::FND_CMN_RCRD_VAL: <MESSAGE><NUMBER></NUMBER><TEXT>A record with the value 15113 already exists.
 ```
-
 The screenshots below show you how to find these errors and troubleshoot within OIC.
 
 ![](screenshots/error1.png)
@@ -116,15 +115,15 @@ Select the 'fscmRestApp' to pull your ERP endpoints. If this is your first time,
 
 Here I have selected create on the CashBankAccount object, we can see how this endpoint works in the REST API docs, [here](https://docs.oracle.com/en/cloud/saas/financials/20b/farfa/api-bank-accounts.html).
 
-## Part 3 - Webhook from JIRA to ERP
+## Part 3 - Webhook to OIC to ERP
 
 [What is a webhook?](https://www.youtube.com/watch?v=rUaDIH5ZXB8)
 
-For systems where we do not have an adapter, you can configure that system to use a webhook to hit integrations like the ones above. For example, your [JIRA webhook](https://developer.atlassian.com/server/jira/platform/webhooks/) would take the place of Postman in the previous work.
+For systems where we do not have an adapter, you can configure that system to use a webhook to hit integrations like the ones above. For example, a [JIRA webhook](https://developer.atlassian.com/server/jira/platform/webhooks/) that points to your endpoint would take the place of Postman in the previous work.
 
-For your webhooks to fire to OIC, you do not require using the REST adapter to authenticate to JIRA in OIC - you simply need to point JIRA to your integration, and add your authentication information (seen with the oicc0034 user previously).
+For your webhooks to fire to OIC from JIRA, you do not require using the REST adapter to authenticate to JIRA in OIC - you simply need to point JIRA to your integration, and add your authentication information (seen with the oicc0034 user previously).But, if you want to pass information back to JIRA, you can use the response part of the REST payload. 
 
-If you want to pass information back to JIRA, you can use the response part of the REST payload. OR, if you want to pass information to JIRA from ERP in a real-time manner for other use cases, first you will need to use the REST adapter and [authenticate to the JIRA API](https://developer.atlassian.com/server/jira/platform/rest-apis/) to pass information to it. Then you can have an event in ERP trigger an integration that invokes your REST connection to JIRA and the relevant endpoint. 
+Alternatively, if you want to pass information to JIRA from ERP in a real-time manner for other use cases, first you will need to use the REST adapter and [authenticate to the JIRA API](https://developer.atlassian.com/server/jira/platform/rest-apis/) to pass information to it. Then you can have an event in ERP trigger an integration that invokes your REST connection to JIRA and the relevant endpoint. 
 
 ## Part 4 - Replace webhooks w/ a Trigger Adapter
 
@@ -154,4 +153,4 @@ One of OIC's best features are its Oracle SaaS adapters. They enable your integr
 
 # Conclusion
 
-You have now learned how to use OIC as a 'pseudo' API Gateway, configure webhooks, and to take advantage of OIC's event listening capabilities. To learn more about what you can do with ERP & OIC, click [here](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/index.html). To learn more about what you can do with OIC in general, click [here](https://garyhostt.github.io/Oracle_Integration/). For batch jobs with BICC, start [here](https://github.com/GaryHostt/Oracle_Integration/blob/master/Intro.md).
+You have now learned how to use OIC as a 'pseudo' API Gateway (click [here](https://www.oracle.com/cloud-native/api-gateway/) for 'real' APIGW), configure webhooks, and to take advantage of OIC's event listening capabilities. To learn more about what you can do with ERP & OIC, click [here](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/index.html). To learn more about what you can do with OIC in general, click [here](https://garyhostt.github.io/Oracle_Integration/). For batch jobs with BICC, start [here](https://github.com/GaryHostt/Oracle_Integration/blob/master/Intro.md).
