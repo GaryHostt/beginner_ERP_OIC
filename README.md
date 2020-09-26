@@ -47,7 +47,7 @@ If you find there's a lack of sufficient details in Part 1, consult [this lab](h
 
 <p align="center">
   <img src="
-https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/screenshots/import2.png?raw=true" alt="Apps"/>
+https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/screenshots/import2.png?raw=true" alt="import"/>
 </p>
 
 After you download the .iar, import it to your integration environment from the 'import' button on the top right of the integration design page.
