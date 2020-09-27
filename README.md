@@ -30,6 +30,7 @@ Lastly, this [video](https://www.youtube.com/watch?v=zZk6SI7FADY&feature=youtu.b
 ## Objectives
 
 - Use the [Cloud ERP adapter](https://docs.oracle.com/en/cloud/paas/integration-cloud/erp-adapter/oracle-erp-cloud-adapter-capabilities.html#GUID-5ED9E9D5-66F4-4EAA-87D7-75BD405C1E07) in OIC
+  - this is from the official OIC documentation, more valuable knowledge at this hyperlink
 - Use the sample REST endpoint
 - Explore where else you can go with ERP integrations
 
@@ -40,6 +41,8 @@ Lastly, this [video](https://www.youtube.com/watch?v=zZk6SI7FADY&feature=youtu.b
 - Webhooks
 - Trigger Adapters
 - ERP Event integrations
+- FBDI automation
+- Visual Builder embedding
 
 ## Part 1 - Create an Account in ERP
 
@@ -172,6 +175,30 @@ You can delete your subscribed OIC instances by calling this endpoint with a DEL
 /soa-infra/PublicEvent/subscriptions/{id}
 ```
 You can also [create your own custom events](https://docs.oracle.com/en/cloud/paas/integration-cloud/erp-adapter/prerequisites-creating-connection.html#GUID-2C7EE4B5-BF8D-4802-8C61-C542C932C3B0) using the application composer. 
+
+## Part 6: FBDI with scheduled orchestrations
+
+[Generate FBDI file](https://docs.oracle.com/en/solutions/import-data-for-enterprise-resource-planning/generate-file-based-data-import-fbdi-file.html#GUID-1E0C5148-30F1-4FD8-B667-874170143467)
+
+[FBDI workshop 1](https://github.com/maldu23/Fusion-FBDI-Integration/blob/master/FBDI_Wkshp.md)
+
+[FBDI workshop 2](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/erp-cloud-fbdi-import-simple.html)
+
+[Using File server with FBDI](https://github.com/GaryHostt/Oracle_Integration/blob/master/Intro.md)
+
+[Video of how to do FBDI](https://www.youtube.com/watch?v=v5tAIKRgD4g)
+
+## Part 7: Visual builder embedding with SaaS
+
+[Decision tree for embedding with SaaS](https://docs.oracle.com/en/solutions/integration-options-saas-cloud/index.html#GUID-3FDAF35E-5E41-41B4-8F15-819518D842CC)
+
+[VBCS with SaaS](https://docs.oracle.com/en/solutions/extend-saas-cloud-native/index.html#GUID-B1C4064D-C47E-4277-93F0-C004F6CF1C00)
+
+- you will need the OIC Service Admin role if using VBCS in OIC
+
+[Youtube video for embedding VBCS in Cloud Appliactions](https://www.youtube.com/watch?v=5EfnDzfS-84)
+
+- great Youtube channel for Visual Builder as well
 
 # Conclusion
 
