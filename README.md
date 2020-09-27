@@ -4,9 +4,13 @@
   <img src="https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/screenshots/intro.png?raw=true" alt="Apps"/>
 </p>
 
-This lab will show you the best way to start using OIC as an Oracle ERP customer by importing an already built integration to your environment. 
+## Who this lab is for
+- new ERP & OIC users
+- current users looking for other use cases with ERP & OIC
 
-The sections afterwards elaborate on other use cases and any necessary configuration. This repo does not show comprehensively every single step you need to follow; but with the guidance of an Oracle Cloud Engineer, or previous OIC experience, or the other referenced labs & material in this repo - you can go from 0 to 100 before your lunch hour.
+In Part 1 of this lab you will start using OIC with Oracle ERP by importing an already built integration to your environment and then running it. 
+
+The sections afterwards elaborate on other use cases and any necessary configuration. This repo does not show comprehensively every single step you need to follow; but with the guidance of an Oracle Cloud Engineer, or previous OIC experience, or even solely the other referenced labs & material in this repo - you can go from 0 to 100 before your lunch hour.
 
 For learning ERP generally, we have several how-to videos - such as for Financials [here](https://docs.oracle.com/en/cloud/saas/financials/20c/videos.html) or Project Management [here](https://docs.oracle.com/en/cloud/saas/project-management/20c/videos.html).
 
