@@ -165,15 +165,13 @@ For systems where we have an adapter, we can take advantage of the trigger capab
 
 ## Part 5 - ERP Event integrations
 
-One of OIC's best features are its Oracle SaaS adapters. They enable your integrations to listen for events from Fusion ERP after configuring the steps below, just once. After that, you can create event based integrations straight from the canvas without further configuration. Please follow Parts 1 & 2 to configure your ERP instance with your OIC instance. 
-
 ### Configuration
 
-[Part 1](https://blogs.oracle.com/imc/subscribe-to-business-events-in-fusion-based-saas-applications-from-oracle-integration-cloud-oic-part-1-prerequisites)
+One of OIC's best features are its Oracle SaaS adapters. They enable your integrations to listen for events from Fusion ERP after configuring the steps below, just once. After that, you can create event based integrations straight from the canvas without further configuration. Please follow Parts 1 & 2 to configure your ERP instance with your OIC instance. 
 
-[Part 2](https://www.ateam-oracle.com/using-business-events-with-integration-cloud-part-2)
+[Part 1](https://blogs.oracle.com/imc/subscribe-to-business-events-in-fusion-based-saas-applications-from-oracle-integration-cloud-oic-part-1-prerequisites) & [Part 2](https://www.ateam-oracle.com/using-business-events-with-integration-cloud-part-2)
 
-[Supplemental to Part 1 & 2](https://www.techsupper.com/2020/03/subscribe-oracle-erp-business-events-in-oracle-integration.html)
+[Supplemental material to Part 1 & 2](https://www.techsupper.com/2020/03/subscribe-oracle-erp-business-events-in-oracle-integration.html)
 
 ### Examples
 
@@ -225,7 +223,7 @@ You can also [create your own custom events](https://docs.oracle.com/en/cloud/pa
 
 [Video of simple FBDI on OIC](https://www.youtube.com/watch?v=CjWhWg0WXeQ&t=436s)
 
-[File integration best practicies](https://blogs.oracle.com/fmw/oracle-integration-cloud-oic-file-based-integration-best-practices) & [part2](https://www.ateam-oracle.com/integration-cloud-file-handling-primer)
+[File integration best practicies](https://blogs.oracle.com/fmw/oracle-integration-cloud-oic-file-based-integration-best-practices) & [part 2](https://www.ateam-oracle.com/integration-cloud-file-handling-primer)
 
 
 ## Part 7 - Other scheduled integrations
@@ -236,7 +234,7 @@ You can also [create your own custom events](https://docs.oracle.com/en/cloud/pa
 
 [Cloud Extracts lab](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/erp-cloud-extracts-simple.html)
 
-- Lastly, you can also just send the file to the ERP UCM server, without invoking the FBDI job. 
+Lastly, you can also just send the file to the ERP UCM server, without invoking the FBDI job. 
 
 ## Part 8 - Visual builder embedding with SaaS
 
