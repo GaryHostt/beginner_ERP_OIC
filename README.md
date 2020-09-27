@@ -140,7 +140,7 @@ For your webhooks to fire to OIC from JIRA, you do not require using the REST ad
 
 Alternatively, if you want to pass information to JIRA from ERP in a real-time manner for other use cases, first you will need to use the REST adapter and [authenticate to the JIRA API](https://developer.atlassian.com/server/jira/platform/rest-apis/) to pass information to it. Then you can have an event in ERP trigger an integration that invokes your REST connection to JIRA and the relevant endpoint. 
 
-## Part 4 - Replace webhooks w/ a Trigger Adapter
+## Part 4 - Replace webhooks w/ Trigger Adapters
 
 For systems where we have an adapter, we can take advantage of the trigger capabilities of those adapters rather than using a webhook & REST API.
 
@@ -150,7 +150,7 @@ For systems where we have an adapter, we can take advantage of the trigger capab
 
 - Pick your adapter, on the left of the page look at 'Add your adapter to an integration' and you can see if that adapter supports event triggers.
 
-## Part 5 - Configuring ERP Event integrations
+## Part 5 - ERP Event integrations
 
 One of OIC's best features are its Oracle SaaS adapters. They enable your integrations to listen for events from Fusion ERP after configuring the steps below, just once. After that, you can create event based integrations straight from the canvas without further configuration. Please follow Parts 1 & 2 to configure your ERP instance with your OIC instance. 
 
