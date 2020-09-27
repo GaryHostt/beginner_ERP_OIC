@@ -171,17 +171,17 @@ One of OIC's best features are its Oracle SaaS adapters. They enable your integr
 
 [Part 1](https://blogs.oracle.com/imc/subscribe-to-business-events-in-fusion-based-saas-applications-from-oracle-integration-cloud-oic-part-1-prerequisites) & [Part 2](https://www.ateam-oracle.com/using-business-events-with-integration-cloud-part-2)
 
-[Supplemental material to Part 1 & 2](https://www.techsupper.com/2020/03/subscribe-oracle-erp-business-events-in-oracle-integration.html)
+[Supplemental material](https://www.techsupper.com/2020/03/subscribe-oracle-erp-business-events-in-oracle-integration.html)
 
 ### Examples
 
-These are workshops that will show you how to build an event based integration after you complete the pre-reqs above.
+These are workshops that will show you how to build various event based integrations after you complete the pre-reqs above.
 
-[Event based integration, example 1](https://github.com/GaryHostt/OIC_SaaS_integration/blob/master/Lab200.md)
+[Walkthrough 1](https://github.com/GaryHostt/OIC_SaaS_integration/blob/master/Lab200.md)
 
-[Event based integration, example 2](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/erp-cloud-events-simple.html)
+[Walkthrough 2](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/erp-cloud-events-simple.html)
 
-[Event based integration, example 3](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md)
+[Walkthrough 3](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md)
 
 I don't have this documented - but you could even have your ERP fire Invoice or other payment events, where upon their CRUD - those transactions are sent to [Oracle Blockchain Platform](https://docs.oracle.com/en/cloud/paas/blockchain-cloud/rest-api/api-application-operations-transactions.html). Or you could have events sent to [a Kafka topic via OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/apache-kafka-adapter/produce-messages-apache-kafka-topic.html).
 
