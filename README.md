@@ -38,6 +38,7 @@ Lastly, this [video](https://www.youtube.com/watch?v=zZk6SI7FADY&feature=youtu.b
 
 - App-driven/real-time integrations; Parts 1 - 5
   - Create an Account in ERP
+    - troubleshooting & how to create a new use cases
   - Enable REST access for your ERP user
   - Webhooks
   - Trigger Adapters
