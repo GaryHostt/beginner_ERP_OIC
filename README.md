@@ -144,7 +144,7 @@ You can also invoke BIP in a similar fashion as shown [here](https://antonyjr.gi
 
 ### Explanation of the imported integration
 
-<a id="raw-url" href="https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/REST_ERP_CREATE_ACCOUNT_01.00.0000.iar?raw=true">Download .iar integration export</a>
+<a id="raw-url" href="https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/REST_ERP_GETPROJECT_01.00.0000.iar?raw=true">Download .iar integration export</a>
 
 You can find the ProjectId for your projects by calling [this endpoint](https://docs.oracle.com/en/cloud/saas/project-management/20b/fapap/op-projects-get.html) against your Fusion REST API. We will need to get one 'ProjectId' from that response to input as a query parameter to the integration. 
 
@@ -152,11 +152,20 @@ You can find the ProjectId for your projects by calling [this endpoint](https://
 
 Here, this is the choosen action on the ERP adapter on the integration canvas. 
 
+![](screenshots/restEndpoint.png)
+
 Below, you can see that we map the id parameter from the REST adapter to the id parameter input on the ERP connection.
+
+![](screenshots/inputMap.png)
 
 You may also be able to find your ProjectId from the Fusion API.
 
+![](screenshots/findingProjects.png)
+
 Lastly, don't forget your tracking field or you won't be able to activate your integration.
+
+![](screenshots/tracking.png)
+![](screenshots/tracking2.png)
 
 ## Part 3 - Webhook to OIC to ERP
 
