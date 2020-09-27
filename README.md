@@ -18,19 +18,19 @@ For learning ERP generally, we have several how-to videos - such as for Financia
 
 You may only be doing one of the types of ERP integrations detailed in the outline below. In that case, you may be 'leaving money on the table' by not utilizing your OIC message pack to its fullest potential. To see your current message usage in OIC, follow the two screenshots below. 
 
-(https://raw.githubusercontent.com/GaryHostt/beginner_ERP_OIC/master/screenshots/usage1.png)
+[Getting to Usage Metrics page in OIC](https://raw.githubusercontent.com/GaryHostt/beginner_ERP_OIC/master/screenshots/usage1.png)
 From the OIC service console, click monitoring.
 
-(https://raw.githubusercontent.com/GaryHostt/beginner_ERP_OIC/master/screenshots/usage2.png)
+[The usage metrics page](https://raw.githubusercontent.com/GaryHostt/beginner_ERP_OIC/master/screenshots/usage2.png)
 This is your usage metrics page, you can see this BYOL instance is configured for 20k message packs per hour, yet on Sept 23 it never went over 100 messages in a given hour.
 
-(https://raw.githubusercontent.com/GaryHostt/beginner_ERP_OIC/master/screenshots/usage3.png)
+[Money being 'left on the table'](https://raw.githubusercontent.com/GaryHostt/beginner_ERP_OIC/master/screenshots/usage3.png)
 
 If your usage is below your configured line, this is OIC usage you are leaving on the table. You can use this area without paying Oracle more money. 
 
 If you notice your message 'usage' is below your 'configured' line - those are messages/money that you are leaving on the table. With OIC, the smallest message back configuration you can have is 1 message pack (5k/hour non-BYOL, 20k/hour BYOL). You might as well use your message pack to its fullest potential. **Building more integrations in OIC will not cost you more $, unless you go over the configured line.** Additionally, if you have nothing built in your OIC instance, your OIC instance will still burn credits based on your [configured number of message packs & if the instance is on](https://www.oracle.com/integration/application-integration/). You can read more about messages [here](https://www.rubiconred.com/blog/understanding-oracle-integration-cloud-licensing) and more about starting/stopping your OIC instance [here](https://garyhostt.github.io/OIC_start-stop/). 
 
-(https://raw.githubusercontent.com/GaryHostt/beginner_ERP_OIC/master/screenshots/usage4.png)
+[When you give Oracle more $](https://raw.githubusercontent.com/GaryHostt/beginner_ERP_OIC/master/screenshots/usage4.png)
 
 **If you are going over your configured line, [scale your message packs](https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/editing-edition-license-type-and-message-packs-instance.html) and your cost will linearly increase.** Click [here](
 https://docs.oracle.com/en/cloud/paas/integration-cloud/oracle-integration-oci/monitoring-billable-messages.html#GUID-563BFD86-A406-4806-817C-B253BEBD9C5B) to read the official OIC documentation on how messages work.
