@@ -213,6 +213,8 @@ You can also [create your own custom events](https://docs.oracle.com/en/cloud/pa
 
 [Video of how to do FBDI](https://www.youtube.com/watch?v=v5tAIKRgD4g)
 
+[Getting job name & parameters](https://blogs.oracle.com/fmw/oracle-integration-and-erp-cloud-how-to-get-job-name-and-parameters-of-erp-bulk-import-jobs)
+
 ### OIC & FBDI
 
 [FBDI workshop 1](https://github.com/maldu23/Fusion-FBDI-Integration/blob/master/FBDI_Wkshp.md)
