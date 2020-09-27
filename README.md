@@ -30,6 +30,7 @@ For learning ERP generally, we have several how-to videos - such as for Financia
     - download & import included .iar file
     - troubleshooting & how to create new use cases
   - Enable REST access for your ERP user
+    - configuration & introduction
     - download & import included .iar file
   - Webhooks
   - Trigger Adapters
@@ -127,6 +128,8 @@ The screenshots below show you how to find these errors and troubleshoot within 
 
 ## Part 2 - Enable REST catalog for your ERP user
 
+### Configuration & introduction
+
 The user that you use in your adapter connection requires these [roles & privileges](https://docs.oracle.com/en/cloud/paas/integration-cloud/erp-adapter/prerequisites-creating-connection.html#GUID-B861559A-DECE-4F7B-82CA-AA48263CA159) in order to access the REST resources. This [blog](https://blogs.oracle.com/fmw/oracle-integration-cloud-oic-fusion-applications-security-requirements) provides screenshots on how to do this for your ERP user.
 
 The advantage of gaining access to the REST resources is that those endpoints follow the [SaaS API documentation](https://docs.oracle.com/en/cloud/saas/index.html). For example, in the screenshot below you see the Cash Bank accounts endpoint - and that resource will follow [this documentation](
@@ -143,6 +146,8 @@ Here I have selected create on the CashBankAccount object, we can see how this e
 You can also invoke BIP in a similar fashion as shown [here](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/erp-cloud-bip-report-simple.html#Background).
 
 ### Explanation of the imported integration
+
+This integration gets information on a specific project.
 
 <a id="raw-url" href="https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/REST_ERP_GETPROJECT_01.00.0000.iar?raw=true">Download .iar integration export</a>
 
