@@ -188,6 +188,8 @@ You can also [create your own custom events](https://docs.oracle.com/en/cloud/pa
 
 [Video of how to do FBDI](https://www.youtube.com/watch?v=v5tAIKRgD4g)
 
+[Video of simple FBDI on OIC](https://www.youtube.com/watch?v=CjWhWg0WXeQ&t=436s)
+
 ## Part 7: Visual builder embedding with SaaS
 
 [Decision tree for embedding with SaaS](https://docs.oracle.com/en/solutions/integration-options-saas-cloud/index.html#GUID-3FDAF35E-5E41-41B4-8F15-819518D842CC)
