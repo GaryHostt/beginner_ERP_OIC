@@ -167,6 +167,8 @@ Lastly, don't forget your tracking field or you won't be able to activate your i
 ![](screenshots/tracking.png)
 ![](screenshots/tracking2.png)
 
+My response fields receive the BusinessUnitID, Business Unit name, and External Project ID. If you receive empty "" in your response, that means that field doesn't have data for that project in your ERP.
+
 ## Part 3 - Webhook to OIC to ERP
 
 [What is a webhook?](https://www.youtube.com/watch?v=rUaDIH5ZXB8)
