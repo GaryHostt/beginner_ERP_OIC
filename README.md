@@ -8,7 +8,7 @@ This lab will show you the best way to start using OIC as an Oracle ERP customer
 
 For learning ERP generally, we have several how-to videos - such as for Financials [here](https://docs.oracle.com/en/cloud/saas/financials/20c/videos.html) or Project Management [here](https://docs.oracle.com/en/cloud/saas/project-management/20c/videos.html).
 
-## Introduction
+# Introduction
 
 Parts 1 - 3 use OIC as a 'drag & drop API builder'. You can use a blank REST adapter at the beginning of your integrations. In your integration tenancy, you should have a 'Sample REST endpoint' that you can use as the start of your app driven orchestration.
 
@@ -36,15 +36,17 @@ Lastly, this [video](https://www.youtube.com/watch?v=zZk6SI7FADY&feature=youtu.b
 
 ## Outline
 
-- App-driven/real-time integrations
+- App-driven/real-time integrations; Parts 1 - 5
   - Create an Account in ERP
   - Enable REST access for your ERP user
   - Webhooks
   - Trigger Adapters
   - ERP Events
-- Scheduled/batch integrations
+- Scheduled/batch integrations; Parts 6 - 7
   - FBDI automation
   - Visual Builder embedding
+  
+# App-driven/real-time integrations
 
 ## Part 1 - Create an Account in ERP
 
@@ -178,7 +180,9 @@ You can delete your subscribed OIC instances by calling this endpoint with a DEL
 ```
 You can also [create your own custom events](https://docs.oracle.com/en/cloud/paas/integration-cloud/erp-adapter/prerequisites-creating-connection.html#GUID-2C7EE4B5-BF8D-4802-8C61-C542C932C3B0) using the application composer. 
 
-## Part 6: FBDI with scheduled orchestrations
+# Scheduled Orchestrations/Batch Integrations
+
+## Part 6 - FBDI with scheduled orchestrations
 
 [Generate FBDI file](https://docs.oracle.com/en/solutions/import-data-for-enterprise-resource-planning/generate-file-based-data-import-fbdi-file.html#GUID-1E0C5148-30F1-4FD8-B667-874170143467)
 
@@ -192,7 +196,7 @@ You can also [create your own custom events](https://docs.oracle.com/en/cloud/pa
 
 [Video of simple FBDI on OIC](https://www.youtube.com/watch?v=CjWhWg0WXeQ&t=436s)
 
-## Part 7: Visual builder embedding with SaaS
+## Part 7 - Visual builder embedding with SaaS
 
 [Decision tree for embedding with SaaS](https://docs.oracle.com/en/solutions/integration-options-saas-cloud/index.html#GUID-3FDAF35E-5E41-41B4-8F15-819518D842CC)
 
