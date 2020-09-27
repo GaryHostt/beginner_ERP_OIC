@@ -38,6 +38,7 @@ For this workshop, you can download [Postman](https://www.postman.com/downloads/
 
 - App-driven/real-time integrations; Parts 1 - 5
   - Create an Account in ERP
+    - download & import included .iar file
     - troubleshooting & how to create new use cases
   - Enable REST access for your ERP user
   - Webhooks
