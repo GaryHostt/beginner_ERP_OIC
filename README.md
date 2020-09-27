@@ -43,7 +43,8 @@ Lastly, this [video](https://www.youtube.com/watch?v=zZk6SI7FADY&feature=youtu.b
   - Webhooks
   - Trigger Adapters
   - ERP Events
-- Scheduled/batch integrations; Parts 6 - 7
+    - configuration, examples, troubleshooting
+- Scheduled/batch integrations & VBCS; Parts 6 - 7
   - FBDI automation
   - Visual Builder embedding
   
@@ -153,19 +154,25 @@ For systems where we have an adapter, we can take advantage of the trigger capab
 
 One of OIC's best features are its Oracle SaaS adapters. They enable your integrations to listen for events from Fusion ERP after configuring the steps below, just once. After that, you can create event based integrations straight from the canvas without further configuration. Please follow Parts 1 & 2 to configure your ERP instance with your OIC instance. 
 
+### Configuration
+
 [Part 1](https://blogs.oracle.com/imc/subscribe-to-business-events-in-fusion-based-saas-applications-from-oracle-integration-cloud-oic-part-1-prerequisites)
 
 [Part 2](https://www.ateam-oracle.com/using-business-events-with-integration-cloud-part-2)
 
 [Supplemental to Part 1 & 2](https://www.techsupper.com/2020/03/subscribe-oracle-erp-business-events-in-oracle-integration.html)
 
-The examples below are from workshops that will show you how to build an event based integration after you complete the pre-reqs above.
+### Examples
+
+These are orkshops that will show you how to build an event based integration after you complete the pre-reqs above.
 
 [Event based integration, example 1](https://github.com/GaryHostt/OIC_SaaS_integration/blob/master/Lab200.md)
 
 [Event based integration, example 2](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/erp-cloud-events-simple.html)
 
 [Event based integration, example 3](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md)
+
+### Troubleshooting
 
 You can see the events available to be captured by OIC by calling the REST API of your Fusion instance, using a GET at this endpoint:
 ```
@@ -189,15 +196,23 @@ You can also [create your own custom events](https://docs.oracle.com/en/cloud/pa
 
 [Generate FBDI file](https://docs.oracle.com/en/solutions/import-data-for-enterprise-resource-planning/generate-file-based-data-import-fbdi-file.html#GUID-1E0C5148-30F1-4FD8-B667-874170143467)
 
+[Video of how to do FBDI](https://www.youtube.com/watch?v=v5tAIKRgD4g)
+
+### OIC & FBDI
+
 [FBDI workshop 1](https://github.com/maldu23/Fusion-FBDI-Integration/blob/master/FBDI_Wkshp.md)
 
 [FBDI workshop 2](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/erp-cloud-fbdi-import-simple.html)
 
-[Using File server with FBDI](https://github.com/GaryHostt/Oracle_Integration/blob/master/Intro.md)
-
-[Video of how to do FBDI](https://www.youtube.com/watch?v=v5tAIKRgD4g)
+[Using the OIC File server with FBDI & the FTP adapter](https://github.com/GaryHostt/Oracle_Integration/blob/master/Intro.md)
 
 [Video of simple FBDI on OIC](https://www.youtube.com/watch?v=CjWhWg0WXeQ&t=436s)
+
+[File integration best practicies](https://blogs.oracle.com/fmw/oracle-integration-cloud-oic-file-based-integration-best-practices) & [part2](https://www.ateam-oracle.com/integration-cloud-file-handling-primer)
+
+[Alternative implementation](https://github.com/GaryHostt/BigQueryIntegration)
+
+- For developers less familiar with FBDI. An alternative pattern could be having OIC simply read the given flat file, and then uploads its contents via the given target system's REST API, such as what is shown in the above 'alternative implmentation' where a flat file is uploaded via REST API in a scheduled orchestration.
 
 ## Part 7 - Visual builder embedding with SaaS
 
