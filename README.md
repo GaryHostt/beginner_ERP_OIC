@@ -185,7 +185,7 @@ These are workshops that will show you how to build an event based integration a
 
 [Event based integration, example 3](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md)
 
-I don't have this documented - but you could even have your ERP fire Invoice or other payment events, where upon their CRUD - those transactions are sent to [Oracle Blockchain Platform](https://docs.oracle.com/en/cloud/paas/blockchain-cloud/rest-api/api-application-operations-transactions.html).
+I don't have this documented - but you could even have your ERP fire Invoice or other payment events, where upon their CRUD - those transactions are sent to [Oracle Blockchain Platform](https://docs.oracle.com/en/cloud/paas/blockchain-cloud/rest-api/api-application-operations-transactions.html). Or you could have events sent to [a Kafka topic via OIC](https://docs.oracle.com/en/cloud/paas/integration-cloud/apache-kafka-adapter/produce-messages-apache-kafka-topic.html).
 
 ### Troubleshooting
 
