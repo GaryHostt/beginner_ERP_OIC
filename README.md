@@ -212,7 +212,7 @@ You can also [create your own custom events](https://docs.oracle.com/en/cloud/pa
 
 [Alternative implementation](https://github.com/GaryHostt/BigQueryIntegration)
 
-- For developers less familiar with FBDI. An alternative pattern could be having OIC simply read the given flat file, and then uploads its contents via the given target system's REST API, such as what is shown in the above 'alternative implmentation' where a flat file is uploaded via REST API in a scheduled orchestration.
+- For developers less familiar with FBDI. An alternative pattern could be having OIC simply read the given flat file, and then uploads its contents via the given target system's REST API, such as what is shown in the above 'alternative implmentation' where a flat file is uploaded via REST API in a scheduled orchestration. You can also do the reverse where you periodically poll given REST endpoint(s) in SaaS, and then create a file flat from the responses.
 
 ## Part 7 - Visual builder embedding with SaaS
 
