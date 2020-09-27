@@ -44,8 +44,9 @@ For this workshop, you can download [Postman](https://www.postman.com/downloads/
   - Trigger Adapters
   - ERP Events
     - configuration, examples, troubleshooting
-- Scheduled/batch integrations & VBCS; Parts 6 - 7
+- Scheduled/batch integrations & VBCS; Parts 6 - 8
   - FBDI automation
+  - Other scheduled integrations
   - Visual Builder embedding
   
 # App-driven/real-time integrations
@@ -130,6 +131,8 @@ Select the 'fscmRestApp' to pull your ERP endpoints. If this is your first time,
 
 Here I have selected create on the CashBankAccount object, we can see how this endpoint works in the REST API docs, [here](https://docs.oracle.com/en/cloud/saas/financials/20b/farfa/api-bank-accounts.html).
 
+You can also invoke BIP in a similar fashion as shown [here](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/erp-cloud-bip-report-simple.html#Background).
+
 ## Part 3 - Webhook to OIC to ERP
 
 [What is a webhook?](https://www.youtube.com/watch?v=rUaDIH5ZXB8)
@@ -210,13 +213,20 @@ You can also [create your own custom events](https://docs.oracle.com/en/cloud/pa
 
 [File integration best practicies](https://blogs.oracle.com/fmw/oracle-integration-cloud-oic-file-based-integration-best-practices) & [part2](https://www.ateam-oracle.com/integration-cloud-file-handling-primer)
 
-[Alternative implementation](https://github.com/GaryHostt/BigQueryIntegration)
+
+## Part 7 - Other scheduled integrations
+
+[Alternative implementation using flat files & REST API](https://github.com/GaryHostt/BigQueryIntegration)
 
 - For developers less familiar with FBDI. An alternative pattern could be having OIC simply read the given flat file, and then uploads its contents via the given target system's REST API, such as what is shown in the above 'alternative implmentation' where a flat file is uploaded via REST API in a scheduled orchestration. You can also do the reverse where you periodically poll given REST endpoint(s) in SaaS, and then create a file flat from the responses that is sent to FTP and/or object storage.
 
+[Cloud Extracts lab](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/erp-cloud-extracts-simple.html)
+
+
+
 - Lastly, you can also just send the file to the ERP UCM server, without invoking the FBDI job. 
 
-## Part 7 - Visual builder embedding with SaaS
+## Part 8 - Visual builder embedding with SaaS
 
 [Decision tree for embedding with SaaS](https://docs.oracle.com/en/solutions/integration-options-saas-cloud/index.html#GUID-3FDAF35E-5E41-41B4-8F15-819518D842CC)
 
