@@ -181,6 +181,8 @@ These are workshops that will show you how to build an event based integration a
 
 [Event based integration, example 3](https://github.com/GaryHostt/Fusion_PurchaseOrder_Integration/blob/master/README.md)
 
+I don't have this documented - but you could even have your ERP fire Invoice or other payment events, where upon their CRUD - those transactions are sent to [Oracle Blockchain Platform](https://docs.oracle.com/en/cloud/paas/blockchain-cloud/rest-api/api-application-operations-transactions.html).
+
 ### Troubleshooting
 
 You can see the events available to be captured by OIC by calling the REST API of your Fusion instance, using a GET at this endpoint:
