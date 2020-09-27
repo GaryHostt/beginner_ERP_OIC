@@ -28,7 +28,7 @@ For this workshop, you can download [Postman](https://www.postman.com/downloads/
 ## Objectives
 
 - Watch this [video](https://www.youtube.com/watch?v=zZk6SI7FADY&feature=youtu.be)
-  - This shows you a 10 minute walkthrough of OIC and an advanced ERP integration that takes advantage of starting with a REST adapter that invokes ERP, the basics of which will be explained in parts 1 - 2 of this workshop).
+  - This shows you a 10 minute walkthrough of OIC and an advanced ERP integration that takes advantage of starting with a REST adapter that invokes ERP, the basics of which will be explained in parts 1 - 2 of this workshop). The links for how to do the content shown in that video are [here](https://csh-sm-tigerteam.github.io/PaaSForSaaS/?lab=lab-300a-connect) & [here](https://csh-sm-tigerteam.github.io/PaaSForSaaS/?lab=lab-300b-connect). Consider doing those labs to learn how to extend what you learn here with Process Automation in OIC.
 - Use the [Cloud ERP adapter](https://docs.oracle.com/en/cloud/paas/integration-cloud/erp-adapter/oracle-erp-cloud-adapter-capabilities.html#GUID-5ED9E9D5-66F4-4EAA-87D7-75BD405C1E07) in OIC
   - this is from the official OIC documentation, more valuable knowledge at this hyperlink
 - Use the sample REST endpoint
