@@ -105,7 +105,7 @@ You get this field if you do not increment field2, because it already exists aft
 ```
 JBO-27024: Failed to validate a row with key oracle.jbo.Key[300000184853360 ] in PartySiteEOJBO-FND:::FND_CMN_RCRD_VAL: <MESSAGE><NUMBER></NUMBER><TEXT>A record with the value 15113 already exists.
 ```
-The screenshots below show you how to find these errors and troubleshoot within OIC.
+The screenshots below show you how to find these errors and troubleshoot within OIC. From the OIC Service Console home page, go to monitoring -> tracking or monitoring -> integrations. On tracking, click the black text with your tracking field to view that specific run. You can view errors on the activity stream, or by clicking the red connection and then the '!'.
 
 ![](screenshots/error1.png)
 ![](screenshots/error2.png)
