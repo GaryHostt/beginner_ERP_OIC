@@ -38,7 +38,7 @@ Lastly, this [video](https://www.youtube.com/watch?v=zZk6SI7FADY&feature=youtu.b
 
 - App-driven/real-time integrations; Parts 1 - 5
   - Create an Account in ERP
-    - troubleshooting & how to create a new use cases
+    - troubleshooting & how to create new use cases
   - Enable REST access for your ERP user
   - Webhooks
   - Trigger Adapters
@@ -62,7 +62,9 @@ https://docs.oracle.com/en/cloud/paas/integration-cloud/erp-adapter/prerequisite
 
 ![](screenshots/erpAdapter.png)
 
-### Explanation of what's in the imported integration
+### Explanation of what's in the imported integration 
+
+This section shows how to use the running integration, troubleshooting its development & how to create new use cases of a similar pattern.
 
 ![](screenshots/erpCanvas1.png)
 
@@ -82,7 +84,7 @@ Here we map the response from ERP back to the REST endpoint. We get the PartyId,
 
 *Error 1: missing required field*
 
-While making this integration or hitting a new object & service, you can learn the minimum required fields for those by looking for the field in the error. Below, you can see that OrganizationName is required.
+While making this integration or hitting a new object & service, you can learn the minimum required fields for those by looking for the field in the error. Below, you can see that OrganizationName is required. Going through each of these errors is how you make these from scratch, unless you consult the [Fusion App's SOAP/REST API documentation](https://docs.oracle.com/en/cloud/saas/index.html).
 
 ```
 JBO-27027: Missing mandatory attributes for a row with key oracle.jbo.Key[300000184853422 ] of type OrganizationDEOJBO-27014: Attribute OrganizationName in OrganizationDEO is required
