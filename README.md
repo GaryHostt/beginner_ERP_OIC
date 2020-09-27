@@ -36,13 +36,15 @@ Lastly, this [video](https://www.youtube.com/watch?v=zZk6SI7FADY&feature=youtu.b
 
 ## Outline
 
-- Create an Account in ERP
-- Enable REST access for your ERP user
-- Webhooks
-- Trigger Adapters
-- ERP Event integrations
-- FBDI automation
-- Visual Builder embedding
+- App-driven/real-time integrations
+  - Create an Account in ERP
+  - Enable REST access for your ERP user
+  - Webhooks
+  - Trigger Adapters
+  - ERP Events
+- Scheduled/batch integrations
+  - FBDI automation
+  - Visual Builder embedding
 
 ## Part 1 - Create an Account in ERP
 
