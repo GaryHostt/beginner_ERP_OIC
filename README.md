@@ -149,13 +149,15 @@ Alternatively, if you want to pass information to JIRA from ERP in a real-time m
 
 ## Part 4 - Replace webhooks w/ Trigger Adapters
 
-For systems where we have an adapter, we can take advantage of the trigger capabilities of those adapters rather than using a webhook & REST API.
-
-[Configuring salesforce outbound events](https://www.youtube.com/watch?v=5Pq-Dme5Gvc&feature=share)
+For systems where we have an adapter, we can take advantage of the trigger capabilities of those adapters rather than using a webhook & REST adapter at the start of the integration.
 
 [Oracle Integration adapters](https://docs.oracle.com/en/cloud/paas/integration-cloud/find-adapters.html)
 
-- Pick your adapter, on the left of the page look at 'Add your adapter to an integration' and you can see if that adapter supports event triggers.
+- Pick your adapter, on the left of the page look at 'Add your adapter to an integration' and you can see if that adapter supports event triggers. Typically, the given SaaS will require some configuration on its end to 'aim' its message(s) to OIC. Those processes are in the official documenation above in the pre-reqs section for each adapter.
+
+[Video on configuring salesforce outbound events with OIC](https://www.youtube.com/watch?v=5Pq-Dme5Gvc&feature=share)
+
+- For example, with salesforce you will need a different workflow rule to trigger the necessary outbound configuration. This is different from Oracle ERP/Fusion apps, where after you perform the configuration below once - new event based integrations will be registered to your SaaS after you create the event based integrations in your OIC environment.
 
 ## Part 5 - ERP Event integrations
 
@@ -225,8 +227,6 @@ You can also [create your own custom events](https://docs.oracle.com/en/cloud/pa
 - For developers less familiar with FBDI. An alternative pattern could be having OIC simply read the given flat file, and then uploads its contents via the given target system's REST API, such as what is shown in the above 'alternative implmentation' where a flat file is uploaded via REST API in a scheduled orchestration. You can also do the reverse where you periodically poll given REST endpoint(s) in SaaS, and then create a file flat from the responses that is sent to FTP and/or object storage.
 
 [Cloud Extracts lab](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/erp-cloud-extracts-simple.html)
-
-
 
 - Lastly, you can also just send the file to the ERP UCM server, without invoking the FBDI job. 
 
