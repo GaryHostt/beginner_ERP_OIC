@@ -8,7 +8,7 @@
 - new ERP & OIC users
 - current users looking for other use cases with ERP & OIC
 
-In Part 1 of this lab you will start using OIC with Oracle ERP by importing an already built integration to your environment and then running it. 
+In Part 1 of this lab you will start using OIC with Oracle ERP by importing an already built integration to your environment and then running it. **Note: if you do not have account or projects in your modules, these may not work for you.**
 
 The sections afterwards elaborate on other use cases and any necessary configuration. This repo does not show comprehensively every single step you need to follow; but with the guidance of an Oracle Cloud Engineer, or previous OIC experience, or even solely the other referenced labs & material in this repo - you can go from 0 to 100 before your lunch hour.
 
@@ -30,6 +30,7 @@ For learning ERP generally, we have several how-to videos - such as for Financia
     - download & import included .iar file
     - troubleshooting & how to create new use cases
   - Enable REST access for your ERP user
+    - download & import included .iar file
   - Webhooks
   - Trigger Adapters
   - ERP Events
@@ -140,6 +141,22 @@ Select the 'fscmRestApp' to pull your ERP endpoints. If this is your first time,
 Here I have selected create on the CashBankAccount object, we can see how this endpoint works in the REST API docs, [here](https://docs.oracle.com/en/cloud/saas/financials/20b/farfa/api-bank-accounts.html).
 
 You can also invoke BIP in a similar fashion as shown [here](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/erp-cloud-bip-report-simple.html#Background).
+
+### Explanation of the imported integration
+
+<a id="raw-url" href="https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/REST_ERP_CREATE_ACCOUNT_01.00.0000.iar?raw=true">Download .iar integration export</a>
+
+You can find the ProjectId for your projects by calling [this endpoint](https://docs.oracle.com/en/cloud/saas/project-management/20b/fapap/op-projects-get.html) against your Fusion REST API. We will need to get one 'ProjectId' from that response to input as a query parameter to the integration. 
+
+[This endpoint](https://docs.oracle.com/en/cloud/saas/project-management/20b/fapap/op-projects-projectid-get.html) is the one our integration is calling, it gets one specific project and its relevant information.
+
+Here, this is the choosen action on the ERP adapter on the integration canvas. 
+
+Below, you can see that we map the id parameter from the REST adapter to the id parameter input on the ERP connection.
+
+You may also be able to find your ProjectId from the Fusion API.
+
+Lastly, don't forget your tracking field or you won't be able to activate your integration.
 
 ## Part 3 - Webhook to OIC to ERP
 
