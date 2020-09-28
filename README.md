@@ -4,7 +4,7 @@
   <img src="https://github.com/GaryHostt/beginner_ERP_OIC/blob/master/screenshots/intro.png?raw=true" alt="Apps"/>
 </p>
 
-## Who this respository is for
+## Who this repository is for
 - new ERP & OIC users
 - current users looking for other use cases with ERP & OIC
 
