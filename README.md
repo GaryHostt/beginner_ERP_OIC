@@ -300,7 +300,7 @@ Lastly, you can also just send the file to the ERP UCM server, without invoking 
 
 - you will need the OIC Service Admin role if using VBCS in OIC
 
-[Youtube video for embedding VBCS in Cloud Appliactions](https://www.youtube.com/watch?v=5EfnDzfS-84)
+[Youtube video for embedding VBCS in Cloud Applications](https://www.youtube.com/watch?v=5EfnDzfS-84)
 
 - great Youtube channel for Visual Builder as well
 
