@@ -166,8 +166,6 @@ Select the 'fscmRestApp' to pull your ERP endpoints. If this is your first time,
 
 Here I have selected create on the CashBankAccount object, we can see how this endpoint works in the REST API docs, [here](https://docs.oracle.com/en/cloud/saas/financials/20b/farfa/api-bank-accounts.html).
 
-You can also invoke BIP in a similar fashion as shown [here](https://antonyjr.github.io/Hands-On-Labs/ERP-Integration-Patterns/html/erp-cloud-bip-report-simple.html#Background).
-
 ### Explanation of the imported integration
 
 This integration gets information on a specific project.
